@@ -12,7 +12,7 @@ const TypedAnimation = ({ itemSequence, className }: Props) => {
     <TypeAnimation
       sequence={itemSequence}
       wrapper="h1"
-      speed={50}
+      speed={40}
       repeat={Infinity}
       className={`${className} font-montserrat font-semibold text-xl xl:text-5xl`}
     ></TypeAnimation>

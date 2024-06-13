@@ -4,6 +4,8 @@ import Header from "@/components/layout/Header";
 import { jetbrains_mono, lato, montserrat } from "@/utils/fonts";
 import StairTransition from "@/components/layout/StairTransition";
 import PageTransition from "@/components/layout/PageTransition";
+import SidebarButton from "@/components/sidebar/SidebarButton";
+import Sidebar from "@/components/sidebar/Sidebar";
 
 export const metadata: Metadata = {
   title: "Nazri Portfolio",
@@ -20,8 +22,9 @@ export default function RootLayout({
       <body
         className={`${lato.variable} ${montserrat.variable} ${jetbrains_mono.variable} bg-background`}
       >
-        <Header />
+        {/* <Header /> */}
         <StairTransition />
+        <Sidebar></Sidebar>
         <PageTransition>{children}</PageTransition>
       </body>
     </html>

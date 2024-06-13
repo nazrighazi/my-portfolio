@@ -37,6 +37,7 @@ const Nav = () => {
           } capitalize transition-all hover:text-indigo-700`}
           key={index}
           href={link.path}
+          prefetch={false}
         >
           {link.name}
         </Link>
