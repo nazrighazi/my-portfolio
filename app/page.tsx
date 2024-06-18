@@ -1,5 +1,3 @@
-"use client";
-
 import ImageAnimation from "@/components/ImageAnimation";
 import SliderAnimation from "@/components/SliderAnimation";
 import TypedAnimation from "@/components/TypedAnimation";

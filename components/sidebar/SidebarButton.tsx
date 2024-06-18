@@ -2,11 +2,11 @@
 import { motion } from "framer-motion";
 import React from "react";
 
-const SidebarButton = ({ setOpen }) => {
+const SidebarButton = ({ setOpen }: any) => {
   return (
     <div
-      className="fixed top-[25px] right-[38px] rounded-[50%] w-[50] h-[50px] bg-transparent cursor-pointer z-50 flex items-center"
-      onClick={() => setOpen((prev) => !prev)}
+      className="fixed top-[25px] right-[38px] xl:right-[88px] rounded-[50%] w-[50] h-[50px] bg-transparent cursor-pointer z-50 flex items-center"
+      onClick={() => setOpen((prev: any) => !prev)}
     >
       <svg width="23" height="23" viewBox="0 0 23 23">
         <motion.path

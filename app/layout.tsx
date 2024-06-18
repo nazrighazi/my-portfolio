@@ -24,8 +24,11 @@ export default function RootLayout({
       >
         {/* <Header /> */}
         <StairTransition />
-        <Sidebar></Sidebar>
-        <PageTransition>{children}</PageTransition>
+
+        <PageTransition>
+          <Sidebar></Sidebar>
+          {children}
+        </PageTransition>
       </body>
     </html>
   );
